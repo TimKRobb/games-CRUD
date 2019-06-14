@@ -1,0 +1,138 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: whitesmoke;
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
+	color: teal;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+	padding: 20px 0px;
+	border-bottom: 1px solid grey;
+}
+
+ul.menu {
+	background-color: white;
+	width: 100%;
+	padding: 5px 20px;
+	border-bottom: 1px solid grey;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	list-style-type: none;
+}
+
+ul.menu>li {
+	font-size: 1.1em;
+	margin: 2px 15px;
+	padding: 3px;
+	border: 1px solid black;
+	background-color: teal;
+	color: whitesmoke;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color: blue;
+}
+
+ul.menu>li>a:hover {
+	color: yellow;
+}
+
+.gamelist {
+	border: 1px solid teal;
+	padding: 2px;
+	margin: 20px 0px;
+}
+
+.gamelist td, .gamelist th {
+	border: 1px dotted teal;
+	padding: 3px 12px;
+}
+
+.gamelist .id {
+	text-align: center;
+}
+
+.gamelist .name {
+	text-align: left;
+}
+
+.gamelist td.name {
+	color: black;
+}
+
+.gamelist .year {
+	text-align: center;
+}
+
+.gamelist .desc {
+	text-align: left;
+}
+
+.gamelist td.desc {
+	font-family: Georgia, serif;
+	color: border-left: ;
+}
+
+p.error {
+	margin: 10px;
+	padding: 15px;
+	border: 1px black solid;
+	background-color: red;
+	color: white;
+	font-size: 1.4em;
+	font-weight: 900;
+}
+
+.create {
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.create>label {
+	margin: 15px 0px 5px;
+	font-size: 1.2em;
+}
+
+.create>input {
+	margin: 5px 0px 15px;
+}
+
+.create>select {
+	margin: 5px 0px 15px;
+}
+
+.create>textarea {
+	margin: 5px 0px 15px;
+	width: 350px;
+}
+
+.create>fieldset {
+	margin: 5px 0px 15px;
+	padding: 10px;
+}
+
+.create>fieldset>input {
+	margin: 5px;
+}
+
